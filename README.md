@@ -4,7 +4,7 @@
 
 A Chrome extension by **Salem Elatrash**, developed from the **WordFlow** final-year research project at TU Dublin. Scribevo supports writers with dyslexia by suggesting sentence corrections they can review and accept.
 
-[Try Scribevo on the Chrome Web Store](https://chromewebstore.google.com/detail/pfpakhloamdgoiokaljdfhpgkbanccci) · [Read the full case study](https://slooma951.github.io/projectweb/case-studies/scribevo.html)
+[Try Scribevo on the Chrome Web Store](https://chromewebstore.google.com/detail/pfpakhloamdgoiokaljdfhpgkbanccci) · [Read the full case study](https://slooma951.github.io/portfolio/case-studies/scribevo.html)
 
 ![Scribevo workflow: write, request support, review and accept or dismiss](assets/scribevo-flow.svg)
 
