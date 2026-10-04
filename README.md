@@ -66,3 +66,5 @@ Context-dependent tense remains difficult. Editor behaviour varies, and automate
 This is a **public project showcase**, not the product source repository. It contains an explanation, prepared product screenshot and original conceptual diagram. Private code, datasets, trained artefacts, credentials, endpoint configuration and implementation history are excluded.
 
 Public descriptions demonstrate the work but cannot prevent independent implementation of a similar idea. No licence to the private implementation is granted by this showcase.
+
+This public showcase is archived as a portfolio snapshot. Archiving applies to this presentation repository; product development is maintained separately in private.
