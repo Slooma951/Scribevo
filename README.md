@@ -6,6 +6,10 @@ A Chrome extension by **Salem Elatrash**, developed from the **WordFlow** final-
 
 [Try Scribevo on the Chrome Web Store](https://chromewebstore.google.com/detail/pfpakhloamdgoiokaljdfhpgkbanccci) · [Read the full case study](https://slooma951.github.io/portfolio/case-studies/scribevo.html)
 
+![Prepared Scribevo correction example](assets/preview.png)
+
+*Prepared product example, not a universal correction guarantee.*
+
 ![Scribevo workflow: write, request support, review and accept or dismiss](assets/scribevo-flow.svg)
 
 ## The problem
@@ -59,6 +63,6 @@ Context-dependent tense remains difficult. Editor behaviour varies, and automate
 
 ## About this repository
 
-This is a **public project showcase**, not the product source repository. It contains an explanation and original conceptual diagram. Private code, datasets, trained artefacts, credentials, endpoint configuration and implementation history are excluded.
+This is a **public project showcase**, not the product source repository. It contains an explanation, prepared product screenshot and original conceptual diagram. Private code, datasets, trained artefacts, credentials, endpoint configuration and implementation history are excluded.
 
 Public descriptions demonstrate the work but cannot prevent independent implementation of a similar idea. No licence to the private implementation is granted by this showcase.
