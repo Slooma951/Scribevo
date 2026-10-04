@@ -40,11 +40,11 @@ This creates a risk for disabled students: a support plan permitting Grammarly m
 
 Scribevo corrects the sentence the writer has already written. It handles dyslexic spellings such as fone, becos and freind, plus apostrophes and common grammar slips. It does not write, paraphrase, add ideas or change the writer's style. Nothing changes until the writer accepts the correction. The words stay theirs.
 
-The live version uses a rule layer first, then an AI model limited to sentence correction. The “Rules only, no AI” setting is built and tested but has not been released. Scribevo still uses AI today.
+From version 2.1.0, Scribevo uses no AI unless the writer turns it on. By default each sentence is checked against Scribevo's own spelling rules. An optional setting, “Also use AI for harder sentences”, adds an AI model limited to sentence correction. It stays off until the writer switches it on.
 
 The aim is a tool a disability service could name in a student's support plan because it corrects rather than generates writing. No university has approved Scribevo yet.
 
-Project check, 4 October 2026: live on the Chrome Web Store at version 2.0.0; 244 backend and 67 extension tests pass.
+Project check, 4 October 2026: live on the Chrome Web Store at version 2.1.0; 248 backend and 69 extension tests pass.
 
 ## What it does
 
@@ -62,14 +62,14 @@ Project check, 4 October 2026: live on the Chrome Web Store at version 2.0.0; 24
 
 I developed the original WordFlow research prototype, prepared a 6,571-pair training dataset, worked with a T5-based model using PyTorch and Hugging Face Transformers, and connected it to a JavaScript extension and a Python FastAPI service. Four participant sessions informed the prototype work.
 
-The later Scribevo product uses a rule layer with AI-assisted correction. Its implementation has evolved beyond the original T5 prototype. AI coding assistance was used during later engineering and verification work.
+The later Scribevo product uses a rule layer, with optional AI-assisted correction that is off by default. Its implementation has evolved beyond the original T5 prototype. AI coding assistance was used during later engineering and verification work.
 
 ## Evidence and current status
 
 | Evidence | Scope and limits |
 | --- | --- |
-| Published extension | Project check, 4 October 2026: **Scribevo v2.0.0** is live on the Chrome Web Store. |
-| Reported release checks | Project check, 4 October 2026: **244 backend + 67 extension tests pass**. This does not establish support for every browser editor. |
+| Published extension | Project check, 4 October 2026: **Scribevo v2.1.0** is live on the Chrome Web Store. |
+| Reported release checks | Project check, 4 October 2026: **248 backend + 69 extension tests pass**. This does not establish support for every browser editor. |
 | Rules-only evaluation | **70/70 already-correct sentences preserved**; **3% harmful edits** on a separate 200-example held-out set. The provider-assisted stage was not evaluated in this run. |
 | Research history | 6,571 training pairs and four participant sessions belong to the academic prototype. Original training and participant work were not rerun in the fresh check. |
 
@@ -87,7 +87,7 @@ The emphasis is on reviewable edits, measurement of harmful changes and clear di
 
 ## Privacy and limitations
 
-The published listing says the AI stage processes the sentence through **Groq in the United States**. No account is required. Cloud processing is a meaningful trade-off; read the [product privacy policy](https://slooma951.github.io/projectweb/scribevo/privacy.html).
+Only the sentence being checked is sent to the Scribevo service, and by default it goes no further. With the optional AI setting switched on, the sentence is also processed by **Groq in the United States**. No account is required. Cloud processing is a meaningful trade-off; read the [product privacy policy](https://slooma951.github.io/projectweb/scribevo/privacy.html).
 
 Context-dependent tense remains difficult. Editor behaviour varies, and automated tests do not replace real-site checks. No universal correction guarantee is made.
 
@@ -97,4 +97,4 @@ This is a **public project showcase**, not the product source repository. It con
 
 Public descriptions demonstrate the work but cannot prevent independent implementation of a similar idea. No licence to the private implementation is granted by this showcase.
 
-This public showcase is archived as a portfolio snapshot with selected code and reproducible evidence. Archiving applies to this presentation repository; product development is maintained separately in private.
+This is a presentation repository with selected code and reproducible evidence. Product development is maintained separately in private.
