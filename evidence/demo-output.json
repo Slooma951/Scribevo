@@ -1,0 +1,21 @@
+{
+  "fixture": "self-authored sentences and invented outcome labels; not a model benchmark",
+  "edit_score": {
+    "true_positive": 1,
+    "false_positive": 0,
+    "false_negative": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f0_5": 1.0,
+    "harmful_tokens": 0
+  },
+  "numpy_summary": {
+    "examples": 4,
+    "counts": {
+      "full": 1,
+      "partial": 1,
+      "none": 1,
+      "harmful": 1
+    }
+  }
+}

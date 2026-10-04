@@ -6,6 +6,16 @@ A Chrome extension by **Salem Elatrash**, developed from the **WordFlow** final-
 
 [Try Scribevo on the Chrome Web Store](https://chromewebstore.google.com/detail/pfpakhloamdgoiokaljdfhpgkbanccci) · [Read the full case study](https://slooma951.github.io/portfolio/case-studies/scribevo.html)
 
+## Project evidence: start here
+
+| Inspect | What you can review |
+| --- | --- |
+| [Selected Python + NumPy code](examples/evaluate_edits.py) | Compare source, reference and output at token-edit level. |
+| [Output](evidence/demo-output.json) | A runnable example and its saved JSON result, using synthetic data. |
+| [Methodology and testing results](evidence/README.md) | **11 public-example tests pass**, checked 4 October 2026; provenance, commands and limits included. |
+
+[NumPy analysis example](examples/analyse_outcomes.py): a new companion exercise, separate from the deployed extension.
+
 ![Prepared Scribevo correction example](assets/preview.png)
 
 *Prepared product example, not a universal correction guarantee.*
@@ -83,8 +93,8 @@ Context-dependent tense remains difficult. Editor behaviour varies, and automate
 
 ## About this repository
 
-This is a **public project showcase**, not the product source repository. It contains an explanation, prepared product screenshot and original conceptual diagram. Private code, datasets, trained artefacts, credentials, endpoint configuration and implementation history are excluded.
+This is a **public project showcase**, not the product source repository. It contains selected evaluation code, tests, evidence, an explanation, a prepared product screenshot and an original conceptual diagram. Correction rules, model code, datasets, trained artefacts, credentials, endpoint configuration and implementation history are excluded.
 
 Public descriptions demonstrate the work but cannot prevent independent implementation of a similar idea. No licence to the private implementation is granted by this showcase.
 
-This public showcase is archived as a portfolio snapshot. Archiving applies to this presentation repository; product development is maintained separately in private.
+This public showcase is archived as a portfolio snapshot with selected code and reproducible evidence. Archiving applies to this presentation repository; product development is maintained separately in private.
