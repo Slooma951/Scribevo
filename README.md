@@ -16,6 +16,26 @@ A Chrome extension by **Salem Elatrash**, developed from the **WordFlow** final-
 
 A person can know what they want to say without knowing the expected spelling. Sound-based spelling, missing letters and swapped letters can make ordinary dictionary suggestions frustrating. Students then have to manage spelling alongside expressing their ideas.
 
+## Why this matters now
+
+About 1 in 10 people have dyslexia. [Dyslexia Ireland](https://dyslexia.ie/info-hub/about-dyslexia/what-is-dyslexia/).
+
+AHEAD's 2023/24 report recorded 22,519 students registered with disability support services in Irish higher education, 8% of students. The largest category was specific learning difficulty, which includes dyslexia: 38.8%, or 8,738 students. [AHEAD, 2023/24 report](https://www.ahead.ie/userfiles/files/shop/free/AHEAD%20Participation%20Rates%2023-24_digital.pdf).
+
+Many of these students rely on Grammarly. It now includes generative AI tools such as a paraphraser, citation finder and AI grader. [Wonkhe, October 2025](https://wonkhe.com/wonk-corner/some-reasonable-adjustments-may-have-just-become-academic-misconduct/).
+
+Some universities now treat Grammarly as generative AI. Since August 2024, Notre Dame's honour code has included editing tools like Grammarly when a lecturer bans generative AI. A University of North Georgia student was put on academic probation in 2024 after using Grammarly on an essay. [Inside Higher Ed, November 2024](https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2024/11/26/grammarly-ai-notre-dame-says-yes). [FOX 5 Atlanta](https://www.fox5atlanta.com/news/grammarly-georgia-college-student-academic-probation-plagiarism-allegations).
+
+This creates a risk for disabled students: a support plan permitting Grammarly may date from its spell-checking role. A student with dyslexia could follow that plan while breaking the AI rules. [Wonkhe, October 2025](https://wonkhe.com/wonk-corner/some-reasonable-adjustments-may-have-just-become-academic-misconduct/).
+
+Scribevo corrects the sentence the writer has already written. It handles dyslexic spellings such as fone, becos and freind, plus apostrophes and common grammar slips. It does not write, paraphrase, add ideas or change the writer's style. Nothing changes until the writer accepts the correction. The words stay theirs.
+
+The live version uses a rule layer first, then an AI model limited to sentence correction. The “Rules only, no AI” setting is built and tested but has not been released. Scribevo still uses AI today.
+
+The aim is a tool a disability service could name in a student's support plan because it corrects rather than generates writing. No university has approved Scribevo yet.
+
+Project check, 4 October 2026: live on the Chrome Web Store at version 2.0.0; 244 backend and 67 extension tests pass.
+
 ## What it does
 
 - Suggests sentence corrections in supported browser text fields.
@@ -38,8 +58,8 @@ The later Scribevo product uses a rule layer with AI-assisted correction. Its im
 
 | Evidence | Scope and limits |
 | --- | --- |
-| Published extension | Live listing checked 3 October 2026: **Scribevo v2.0.0**, updated 28 September 2026. |
-| Fresh release checks | 3 October 2026: **244 backend + 54 extension tests passed** in a release checkout. This does not establish support for every browser editor. |
+| Published extension | Project check, 4 October 2026: **Scribevo v2.0.0** is live on the Chrome Web Store. |
+| Reported release checks | Project check, 4 October 2026: **244 backend + 67 extension tests pass**. This does not establish support for every browser editor. |
 | Rules-only evaluation | **70/70 already-correct sentences preserved**; **3% harmful edits** on a separate 200-example held-out set. The provider-assisted stage was not evaluated in this run. |
 | Research history | 6,571 training pairs and four participant sessions belong to the academic prototype. Original training and participant work were not rerun in the fresh check. |
 
